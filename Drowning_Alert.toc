@@ -1,0 +1,9 @@
+## Interface: 11503
+## Version: 1.0.0
+## Title: Drowning Alert
+## Notes: This is a Drowning alert addon made mostly for hardcore use.
+## Author: Darkarms
+## SavedVariables: Drowning_Alert_Variables
+
+Drowning_Alert.lua
+Config.lua
