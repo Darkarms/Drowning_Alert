@@ -36,7 +36,6 @@ local function CheckOxygen()
 	if(not (curValue <= 0) and not (maxvalue <= 0))
 	then
 		local availableOxygenPercentage = math.floor(curValue / maxvalue * 100)
-		print(availableOxygenPercentage)
 		if(availableOxygenPercentage <= Drowning_Alert_Variables.AlertValue) then
 			UIErrorsFrame:AddMessage("You are DROWNING!");
 			PlaySound(8959)
